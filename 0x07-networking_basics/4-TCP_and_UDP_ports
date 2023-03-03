@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#for the listening port
+netstat -anptule | grep "1234" | grep "LISTEN"
